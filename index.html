@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="VISION Studio is a desktop creator application that helps TikTok creators prepare, review, schedule and publish their own short-form videos through TikTok's official APIs.">
+  <meta name="application-name" content="VISION Studio">
+  <meta property="og:site_name" content="VISION Studio">
+  <meta property="og:title" content="VISION Studio">
+  <meta property="og:image" content="icon-512.png">
+  <title>VISION Studio</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="icon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icon-180.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site">
+  <a class="brand" href="index.html"><img src="icon-192.png" width="44" height="44" alt="VISION Studio icon"><span>VISION Studio</span></a>
+  <nav><a href="index.html" class=on>Home</a><a href="features.html">Features</a><a href="how-it-works.html">How it works</a><a href="faq.html">FAQ</a><a href="about.html">About</a><a href="support.html">Support</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav>
+</header>
+<main>
+  <section class="hero">
+    <img class="hero-icon" src="icon-192.png" width="96" height="96" alt="VISION Studio icon">
+    <div class="eyebrow">Creator publishing workflow</div>
+    <h1>VISION Studio</h1>
+    <p class="lead">VISION Studio is a desktop application that helps creators turn their own footage into finished vertical clips, review every caption and setting, and publish to the TikTok account they own — using TikTok's official Login Kit and Content Posting API.</p>
+    <div class="links"><a class="primary" href="how-it-works.html">See how it works</a><a href="features.html">Explore features</a></div>
+  </section>
+
+  <section class="panel">
+    <h2>What VISION Studio does</h2>
+    <p>Creators spend most of their time cutting, captioning and re-uploading. VISION Studio runs those steps on the creator's own computer: it proposes clips from a source video, drafts a title, caption, hashtags and subtitles, and presents everything for review. Nothing reaches TikTok until the creator has looked at the preview and expressly confirmed the post or its schedule.</p>
+    <div class="grid">
+      <article><h3>Creator control</h3><p>Only the owner of a TikTok account can connect it, by completing TikTok's own authorization screen. VISION Studio never publishes to an account that has not been connected by its owner, and every post is confirmed by the creator before it is sent.</p></article>
+      <article><h3>Local media</h3><p>Video files are prepared on the creator's computer and transferred directly to TikTok with the official FILE_UPLOAD method. Access tokens are stored server-side, never in this website or in any public repository.</p></article>
+      <article><h3>Transparent status</h3><p>Scheduled, processing, published and failed items are shown separately in the application. A post is only marked as published once TikTok has confirmed it.</p></article>
+      <article><h3>Original work only</h3><p>Creators must own their content or hold the rights to use it. VISION Studio does not remove the creator's responsibilities under TikTok's Terms of Service and Community Guidelines.</p></article>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Built on TikTok's official products</h2>
+    <table class="tbl">
+      <tr><th>TikTok product</th><th>Scope</th><th>Why VISION Studio needs it</th></tr>
+      <tr><td>Login Kit</td><td><code>user.info.basic</code></td><td>Show the connected account's display name and avatar so the creator can confirm which account will receive the post.</td></tr>
+      <tr><td>Display API</td><td><code>user.info.stats</code></td><td>Show follower, like and video counts in the creator's dashboard.</td></tr>
+      <tr><td>Display API</td><td><code>video.list</code></td><td>List the creator's existing public videos so a published post can be verified and its status displayed.</td></tr>
+      <tr><td>Content Posting API</td><td><code>video.publish</code></td><td>Publish a creator-approved video directly to the connected account with the privacy level and interaction settings the creator selected.</td></tr>
+    </table>
+  </section>
+
+  <section class="panel">
+    <h2>Who it is for</h2>
+    <p>VISION Studio is designed for individual creators and small teams who publish their own short-form content and want a reliable, reviewable pipeline from raw footage to a live TikTok post. It is not a bulk-posting service, it does not manage accounts on behalf of third parties, and it does not sell or rent access to TikTok data.</p>
+    <div class="links"><a href="faq.html">Read the FAQ</a><a href="about.html">About the project</a><a href="support.html">Contact support</a></div>
+  </section>
+
+</main>
+<footer class="site">
+  <div class="foot-brand"><img src="icon-192.png" width="28" height="28" alt="VISION Studio icon"> VISION Studio</div>
+  <div class="foot-links"><a href="features.html">Features</a><a href="how-it-works.html">How it works</a><a href="faq.html">FAQ</a><a href="about.html">About</a><a href="support.html">Support</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></div>
+  <div class="foot-copy">© 2026 VISION Studio. VISION Studio is an independent creator tool and is not affiliated with, endorsed by or operated by TikTok. Contact: <a href="mailto:measaidi953@gmail.com">measaidi953@gmail.com</a></div>
+</footer>
+</body>
+</html>
